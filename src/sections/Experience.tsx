@@ -27,50 +27,28 @@ const Experience = () => {
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
+      name: "JD Techcom",
+      role: "Web Developer",
       url: "https://www.youtube.com/kishansheth21",
       start: "April 2021",
-      end: "Present",
+      end: "September 2022",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "Utilized SEO (Search Engine Optimization) best practices and techniques to optimize web applications for maximum speed and scalability and improve website performance by 15%. ",
+        "Collaborated with back-end developers and designers to integrate web services and/or third-party APIs to design and develop mobile-friendly, responsive websites. ",
+        "Automated front-end unit and functional tests to ensure seamless updates to future versions of software releases resulting in 15% increase in team productivity. ",
       ],
     },
     {
-      name: "ACES",
-      role: "President",
+      name: "Wondersend Ltd",
+      role: "Frontend Developer (Intern)",
       url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
       start: "November 2019",
-      end: "November 2020",
+      end: "February 2020",
       shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
-      ],
-    },
-    {
-      name: "ISTE",
-      role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
-      shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-      ],
-    },
-    {
-      name: "Shashaan",
-      role: "Founder",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2018",
-      end: "November 2021",
-      shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
+        "Debugged and troubleshooted web applications, identifying and addressing performance bottlenecks, resulting in a 20% reduction in bug-related delays.",
+        "Employed version control systems such as Git to collaborate on projects and manage code.",
+        "Provided support to senior front-end developers after becoming proficient in ReactJS, resulting a in stronger, more efficient tech team.",
+        "Implemented cross-browser compatibility at the code level, resulting in a 50% increase in user satisfaction.",
       ],
     },
   ];
@@ -115,9 +93,7 @@ const Experience = () => {
               <span>{experiences[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={experiences[selected].url} className="link">
-                  {experiences[selected].name}
-                </Link>
+                <div className="link">{experiences[selected].name}</div>
               </span>
             </h3>
             <p className="exp-details-range">

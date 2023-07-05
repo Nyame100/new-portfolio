@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import { Button2 } from "@/components/Button";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
@@ -40,7 +40,7 @@ const Hero = () => {
           delay: 1.05,
         }}
       >
-        I build things for the web.
+        I build web apps.
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -69,7 +69,7 @@ const Hero = () => {
           delay: 1.65,
         }}
       >
-        <Button text="Get in touch" link="https://youtube.com" />
+        <Button2 text="Get in touch" link="mailto:nyamerichmond100@gmail.com" />
       </motion.div>
     </div>
   );

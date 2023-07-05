@@ -57,5 +57,4 @@ function Loader({ isLoading, setIsLoading }: any) {
     </AnimatePresence>
   );
 }
-
 export default Loader;

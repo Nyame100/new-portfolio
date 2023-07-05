@@ -44,19 +44,6 @@ const About = () => {
             applications and user interfaces. Proficient at building databases,
             servers and RESTful APIs coupled with a focus on responsive web
             design and building applications with cross-platform compatibility.
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops
-            </Link>
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
-            <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita
-            </Link>
           </p>
           <p className="about-grid-info-text">
             Here are some technologies I have been working with

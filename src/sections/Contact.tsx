@@ -19,9 +19,8 @@ function Contact() {
       <h2 className="contact-title">What&apos;s Next ?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+        My inbox is always opened as I want new opportunities. Whether you have
+        an opportunity for me or just want to say hi, I’ll get back to you!
       </p>
       <div className="contact-cta">
         <Button2 link="mailto:nyamerichmond100@gmail.com" text="Say Hello" />
