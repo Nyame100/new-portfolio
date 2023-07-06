@@ -117,7 +117,7 @@ const Navbar = () => {
           >
             <Button
               text="Resume"
-              link="http://localhost:3000/RichmondNyame.pdf"
+              link="http://gyenyame.xyz/RichmondNyame.pdf"
             />
           </motion.div>
         </div>

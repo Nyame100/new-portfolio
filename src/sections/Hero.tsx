@@ -1,6 +1,5 @@
 import { Button2 } from "@/components/Button";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
