@@ -14,41 +14,16 @@ const Experience = () => {
   }, [selected]);
   const experiences = [
     {
-      name: "Freelance",
-      role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
-      end: "Present",
-      shortDescription: [
-        "Created and maintained RESTful APIs, enabling seamless communication between web applications and third-party services, resulting in a 20% increase in efficiency.",
-        "Applied front-end technologies such as React and AJAX to integrate with back-end services, resulting in real-time data-driven updates to the website and an improved user experience, leading to a 20% spike in traffic. ",
-        "Developed and executed front-end development strategies, resulting in a 15% increase in website performance by implementing optimization techniques such as code minification and troubleshooting issues using browser developer tools. ",
-        "Leveraged advanced JavaScript libraries and APIs to build 60+ interactive web applications.",
-      ],
-    },
-    {
       name: "JD Techcom",
-      role: "Web Developer",
+      role: "Web Developer (Intern)",
       url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
-      end: "September 2022",
+      start: "October 2022",
+      end: "April 2023",
       shortDescription: [
-        "Utilized SEO (Search Engine Optimization) best practices and techniques to optimize web applications for maximum speed and scalability and improve website performance by 15%. ",
-        "Collaborated with back-end developers and designers to integrate web services and/or third-party APIs to design and develop mobile-friendly, responsive websites. ",
-        "Automated front-end unit and functional tests to ensure seamless updates to future versions of software releases resulting in 15% increase in team productivity. ",
-      ],
-    },
-    {
-      name: "Wondersend Ltd",
-      role: "Frontend Developer (Intern)",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "February 2020",
-      shortDescription: [
-        "Debugged and troubleshooted web applications, identifying and addressing performance bottlenecks, resulting in a 20% reduction in bug-related delays.",
+        "Debugged and troubleshooted web applications, identifying and addressing performance bottlenecks, resulting in a 10% reduction in bug-related delays.",
+        "Created and maintained RESTful APIs, enabling seamless communication between web applications and third-party services.",
+        "Applied front-end technologies such as React and AJAX to integrate with back-end services, resulting in real-time data-driven updates to the website and an improved user experience, leading to a 10% spike in traffic.",
         "Employed version control systems such as Git to collaborate on projects and manage code.",
-        "Provided support to senior front-end developers after becoming proficient in ReactJS, resulting a in stronger, more efficient tech team.",
-        "Implemented cross-browser compatibility at the code level, resulting in a 50% increase in user satisfaction.",
       ],
     },
   ];
@@ -68,7 +43,7 @@ const Experience = () => {
       }}
     >
       <div className="title">
-        <h2>Experiences</h2>
+        <h2>Experience</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

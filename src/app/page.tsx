@@ -9,39 +9,61 @@ import Experience from "@/sections/Experience";
 import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
 import Head from "next/head";
-import Loader from "@/components/Loader";
+// import Loader from "@/components/Loader";
 
 const Index = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [showContent, setShowContent] = useState(false);
+  // const [isLoading, setIsLoading] = useState(true);
+  // const [showContent, setShowContent] = useState(false);
 
-  const handleLoaderLoaded = () => {
-    setIsLoading(false);
-    setTimeout(() => setShowContent(true), 450);
-  };
+  // const handleLoaderLoaded = () => {
+  //   setIsLoading(false);
+  //   setTimeout(() => setShowContent(true), 450);
+  // };
   return (
     <div className="app">
       <Head>
         <link rel="shortcut icon" href="/favicon/favicon.ico" />
       </Head>
-      {showContent ? (
-        <>
-          <Navbar />
-          <SocialIcons />
-          <Email />
-          <main>
-            <Hero />
-            <About />
-            <Experience />
-            <Projects />
-            <Contact />
-          </main>
-        </>
-      ) : (
-        <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
-      )}
+      <>
+        <Navbar />
+        <SocialIcons />
+        <Email />
+        <main>
+          <Hero />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
+        </main>
+      </>
     </div>
   );
 };
 
 export default Index;
+
+//
+{
+  /* <div className="app">
+  <Head>
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+  </Head>
+  {showContent ? (
+    <>
+      <Navbar />
+      <SocialIcons />
+      <Email />
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
+    </>
+  ) : (
+    <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
+  )}
+</div>; */
+}
+//

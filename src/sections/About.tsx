@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
@@ -11,7 +10,9 @@ import {
   SiPostman,
   SiTypescript,
   SiJest,
+  SiTailwindcss,
 } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaBootstrap, FaReact } from "react-icons/fa";
 import { BsShieldFillCheck } from "react-icons/bs";
@@ -39,11 +40,11 @@ const About = () => {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Creative fullstack developer with a focus on building MERN stack
-            applications. Experienced in developing and optimizing web
-            applications and user interfaces. Proficient at building databases,
-            servers and RESTful APIs coupled with a focus on responsive web
-            design and building applications with cross-platform compatibility.
+            Creative fullstack developer with strong command over both front-end
+            and back-end technologies. I&apos;m proficient at building
+            databases, servers and RESTful APIs. I&apos;m also passionate about
+            creating intuitive user interfaces that provide an exceptional user
+            experience.
           </p>
           <p className="about-grid-info-text">
             Here are some technologies I have been working with
@@ -123,9 +124,21 @@ const About = () => {
             </li>
             <li className="about-grid-info-list-item">
               <span className="about-grid-info-list-item-badge">
+                <TbBrandNextjs />
+              </span>
+              NextJs
+            </li>
+            <li className="about-grid-info-list-item">
+              <span className="about-grid-info-list-item-badge">
+                <SiTailwindcss />
+              </span>
+              Tailwind CSS
+            </li>
+            <li className="about-grid-info-list-item">
+              <span className="about-grid-info-list-item-badge">
                 <BsShieldFillCheck />
               </span>
-              CMS
+              Headless CMS
             </li>
           </ul>
         </div>

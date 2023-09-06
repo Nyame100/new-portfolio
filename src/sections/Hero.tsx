@@ -51,9 +51,9 @@ const Hero = () => {
           delay: 1.35,
         }}
       >
-        I&apos;m a fullstack developer with a focus on building MERN stack
-        applications. Experienced in developing and optimizing web
-        applications.&nbsp;
+        I&apos;m a fullstack developer with a focus on building web applications
+        that are responsive, visually appealing and accessible across different
+        devices and browsers.
         {/* <Link href="https://rapidops.com" target="_blank" className="link">
           rapido
         </Link> */}

@@ -24,6 +24,42 @@ const Projects = () => {
       },
     },
     {
+      image: "/jobtracker.jpeg",
+      projectName: "Job Tracking App",
+      projectDescription:
+        "The Jobtracker helps a user to organize and track their progress as they make job applications. Keeping track of all job applications can be a hectic task, and this app will ease the burden and make it easier to hunt for jobs.",
+      projectTech: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JavaScript",
+        "Styled Components",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Nyame100/JobTracker-MERN",
+        externalLink: "https://mern-jobtracker.onrender.com",
+      },
+    },
+    {
+      image: "/airbnb.jpeg",
+      projectName: "AirBnb clone",
+      projectDescription:
+        "AirBnb clone, mimics the one-stop travel site for a dream vacation. The app allows home owners to list their properties. Users can also book any of the listed properties for a vacation. ",
+      projectTech: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JavaScript",
+        "Tailwind CSS",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/Nyame100/app",
+        externalLink: "https://vacay-app.onrender.com",
+      },
+    },
+    {
       image: "/cocktails.jpeg",
       projectName: "Cocktails App",
       projectDescription:
@@ -38,23 +74,6 @@ const Projects = () => {
       projectExternalLinks: {
         github: "https://github.com/Nyame100/cocktails-project",
         externalLink: "https://cocktailsproject-1.netlify.app/",
-      },
-    },
-    {
-      image: "/movies.jpeg",
-      projectName: "Movies App",
-      projectDescription:
-        "With the Movies app, users can keep track of current movies. Users can get more details about a specific movie by navigating to it.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "JavaScript",
-        "Styled Components",
-        "RESTful API",
-      ],
-      projectExternalLinks: {
-        github: "https://github.com/Nyame100/movieDB-project",
-        externalLink: "https://moviedbase1.netlify.app",
       },
     },
   ];
