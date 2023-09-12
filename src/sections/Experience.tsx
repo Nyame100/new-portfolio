@@ -17,8 +17,8 @@ const Experience = () => {
       name: "JD Techcom",
       role: "Web Developer (Intern)",
       url: "https://www.youtube.com/kishansheth21",
-      start: "October 2022",
-      end: "April 2023",
+      start: "October 2021",
+      end: "April 2022",
       shortDescription: [
         "Debugged and troubleshooted web applications, identifying and addressing performance bottlenecks, resulting in a 10% reduction in bug-related delays.",
         "Created and maintained RESTful APIs, enabling seamless communication between web applications and third-party services.",
