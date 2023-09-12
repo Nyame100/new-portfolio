@@ -2,15 +2,15 @@
   margin: 15rem 0;
   .title {
     font-family: "Gill Sans";
-    color: var(--lightest-slate);
+    color: var(--theme-color);
     position: relative;
     h2 {
       margin-bottom: 2rem;
       font-size: var(--tx2large);
       font-weight: 700;
       &::before {
-        counter-increment: title;
-        content: "0" counter(title) ".";
+        // counter-increment: title;
+        // content: "0" counter(title) ".";
         margin-right: 0.5rem;
         color: var(--theme-color);
       }

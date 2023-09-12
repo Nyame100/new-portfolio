@@ -55,11 +55,11 @@ nav {
             color: inherit;
             text-decoration: none;
             padding: 10px;
-            &::before {
-              counter-increment: nav-list;
-              content: "0" counter(nav-list) ". ";
-              color: var(--theme-color);
-            }
+            // &::before {
+            //   counter-increment: nav-list;
+            //   content: "0" counter(nav-list) ". ";
+            //   color: var(--theme-color);
+            // }
           }
           a:focus {
             outline-color: var(--theme-color);
