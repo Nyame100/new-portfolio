@@ -16,6 +16,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaBootstrap, FaReact } from "react-icons/fa";
 import { BsShieldFillCheck } from "react-icons/bs";
+import { BiLogoDocker } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -136,9 +137,9 @@ const About = () => {
             </li>
             <li className="about-grid-info-list-item">
               <span className="about-grid-info-list-item-badge">
-                <BsShieldFillCheck />
+                <BiLogoDocker />
               </span>
-              Headless CMS
+              Docker
             </li>
           </ul>
         </div>
